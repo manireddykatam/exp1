@@ -90,8 +90,14 @@ Foodiego/
 ├── admin.html       # Admin management dashboard
 ├── style.css        # Responsive layout, grid, flexbox, and animations
 ├── script.js        # Application logic and localStorage data model
+├── images/
+│   └── food/        # Local realistic food and hero photography
 └── README.md        # Project documentation
 ```
+
+## Image assets
+
+The interface uses local JPG assets in `images/food/` for the hero section, category cards, menu cards, cart thumbnails, and order history. Keeping the images in the repository makes the GitHub Pages demo self-contained and avoids relying on external image requests at runtime.
 
 ## localStorage data
 
